@@ -56,8 +56,9 @@ body main .proof__info__wrapper .proof__rating .box__rating__one ul {
   gap: 0.5rem;
 }
 body main .proof__info__wrapper .proof__rating .box__rating__one p {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.095rem;
+  color: hsl(300, 43%, 22%);
 }
 body main .proof__info__wrapper .proof__rating .box__rating__two {
   display: flex;
@@ -75,8 +76,9 @@ body main .proof__info__wrapper .proof__rating .box__rating__two ul {
   gap: 0.5rem;
 }
 body main .proof__info__wrapper .proof__rating .box__rating__two p {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.095rem;
+  color: hsl(300, 43%, 22%);
 }
 body main .proof__info__wrapper .proof__rating .box__rating__three {
   display: flex;
@@ -94,8 +96,9 @@ body main .proof__info__wrapper .proof__rating .box__rating__three ul {
   gap: 0.5rem;
 }
 body main .proof__info__wrapper .proof__rating .box__rating__three p {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.13rem;
+  color: hsl(300, 43%, 22%);
 }
 body main .social__testimonials {
   margin-top: 4.5rem;
@@ -107,7 +110,7 @@ body main .social__testimonials {
 body main .social__testimonials .profile__one {
   background-color: hsl(300, 43%, 22%);
   border-radius: 0.7rem;
-  padding-block-start: 2.5rem;
+  padding-block: 2.5rem;
   padding-inline: 2rem;
   max-height: 235px;
 }
@@ -201,6 +204,141 @@ body main .social__testimonials .profile__three .profile__quote {
   font-size: 1.045rem;
   color: hsl(0, 0%, 100%);
   line-height: 1.3;
+}
+@media (max-width: 1350.98px) {
+  body main {
+    padding-inline: 7rem;
+  }
+}
+@media (max-width: 1280.98px) {
+  body main {
+    padding-inline: 5rem;
+  }
+  body main .proof__info__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+  body main .proof__info__wrapper .proof__detail h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    max-width: 350px;
+  }
+  body main .proof__info__wrapper .proof__detail p {
+    margin-top: 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    max-width: 450px;
+    color: hsl(303, 10%, 53%);
+  }
+  body main .proof__info__wrapper .proof__rating {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__one {
+    max-width: 100%;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__two {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__three {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  body main .social__testimonials .profile__one {
+    max-height: auto;
+  }
+  body main .social__testimonials .profile__two {
+    max-height: auto;
+  }
+  body main .social__testimonials .profile__three {
+    max-height: auto;
+  }
+}
+@media (max-width: 1120.98px) {
+  body main .social__testimonials {
+    margin-top: 4.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  body main .social__testimonials .profile__one {
+    max-height: auto;
+  }
+  body main .social__testimonials .profile__two {
+    max-height: auto;
+    margin-top: 0;
+  }
+  body main .social__testimonials .profile__three {
+    max-height: auto;
+    margin-top: 0;
+  }
+}
+@media (max-width: 768.98px) {
+  body main {
+    padding-inline: 3rem;
+  }
+  body main .proof__info__wrapper {
+    grid-template-columns: 1fr;
+  }
+  body main .proof__info__wrapper .proof__detail h1 {
+    text-align: center;
+    max-width: 100%;
+  }
+  body main .proof__info__wrapper .proof__detail p {
+    text-align: center;
+    max-width: 100%;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__one {
+    justify-content: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__two {
+    justify-content: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__three {
+    justify-content: center;
+  }
+}
+@media (max-width: 576.98px) {
+  body main {
+    padding-inline: 1rem;
+  }
+  body main .proof__info__wrapper .proof__detail h1 {
+    font-size: 3rem;
+  }
+  body main .proof__info__wrapper .proof__detail p {
+    font-size: 1rem;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__one {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__one ul {
+    justify-content: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__two {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__two ul {
+    justify-content: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__three {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  body main .proof__info__wrapper .proof__rating .box__rating__three ul {
+    justify-content: center;
+  }
 }
 body .attribution {
   font-size: 11px;
