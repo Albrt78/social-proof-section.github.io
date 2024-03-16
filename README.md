@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social Proof Component](./screenshot.jpg)
+![Social Proof Component](./Social-proof-section-screenshot.png)
 
 ### Links
 
