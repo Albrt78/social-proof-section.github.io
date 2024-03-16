@@ -1,4 +1,255 @@
+// Primary
+$Very-Dark-Magenta: hsl(300, 43%, 22%);
+$Soft-Pink: hsl(333, 80%, 67%);
+
+// Neutral
+$Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+$Light-Grayish-Magenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 body {
+    background-color: $White;
+
+    main {
+        padding-top: 7.3rem;
+        padding-inline: 10.3rem;
+        font-family: "League Spartan", sans-serif;
+
+        .proof__info__wrapper {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            column-gap: 2rem;
+
+            .proof__detail {
+                h1 {
+                    font-size: 3.25rem;
+                    font-weight: 700;
+                    color: $Very-Dark-Magenta;
+                    max-width: 350px;
+                }
+
+                p {
+                    margin-top: 1.7rem;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.4;
+                    max-width: 450px;
+                    color: $Dark-Grayish-Magenta;
+                }
+            }
+
+            .proof__rating {
+                display: flex;
+                flex-direction: column;
+
+                .box__rating__one {
+                    display: flex;
+                    background-color: $Light-Grayish-Magenta;
+                    padding-block: 1.13rem;
+                    padding-inline: 2rem;
+                    margin-top: 1.85rem;
+                    gap: 2rem;
+                    max-width: 440px;
+                    border-radius: 0.5rem;
+
+                    ul {
+                        display: flex;
+                        gap: 0.5rem;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 1.095rem;
+                    }
+                }
+
+                .box__rating__two {
+                    display: flex;
+                    background-color: $Light-Grayish-Magenta;
+                    padding-block: 1.17rem;
+                    padding-inline: 2rem;
+                    margin-top: 1rem;
+                    margin-left: 3rem;
+                    gap: 2rem;
+                    max-width: 440px;
+                    border-radius: 0.5rem;
+
+                    ul {
+                        display: flex;
+                        gap: 0.5rem;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 1.095rem;
+                    }
+                }
+
+                .box__rating__three {
+                    display: flex;
+                    background-color: $Light-Grayish-Magenta;
+                    padding-block: 1.13rem;
+                    padding-inline: 2rem;
+                    margin-top: 1rem;
+                    margin-left: 5.8rem;
+                    gap: 2rem;
+                    max-width: 440px;
+                    border-radius: 0.5rem;
+
+                    ul {
+                        display: flex;
+                        gap: 0.5rem;
+                    }
+
+                    p {
+                        font-weight: 500;
+                        font-size: 1.13rem;
+                    }
+                }
+            }
+        }
+
+        .social__testimonials {
+            margin-top: 4.5rem;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            column-gap: 1.8rem;
+
+            .profile__one {
+                background-color: $Very-Dark-Magenta;
+                border-radius: 0.7rem;
+                padding-block-start: 2.5rem;
+                padding-inline: 2rem;
+                max-height: 235px;
+
+                .profile__detail__wrapper {
+                    display: flex;
+                    gap: 1.5rem;
+
+                    img {
+                        width: 2.5rem;
+                        border-radius: 50%;
+                    }
+
+                    .profile__detail {
+                        h2 {
+                            font-size: 1.05rem;
+                            font-weight: 700;
+                            padding-top: 0.2rem;
+                            color: $White;
+                        }
+
+                        p {
+                            font-size: 1.06rem;
+                            padding-top: 0.2rem;
+                            color: $Soft-Pink;
+                        }
+                    }
+                }
+
+                .profile__quote {
+                    margin-top: 1.73em;
+                    font-size: 1.045rem;
+                    color: $White;
+                    line-height: 1.3;
+                }
+            }
+
+            .profile__two {
+                background-color: $Very-Dark-Magenta;
+                border-radius: 0.7rem;
+                padding-block: 2.5rem;
+                padding-inline: 2rem;
+                max-height: 235px;
+                margin-top: 1rem;
+
+                .profile__detail__wrapper {
+                    display: flex;
+                    gap: 1.5rem;
+
+                    img {
+                        width: 2.5rem;
+                        border-radius: 50%;
+                    }
+
+                    .profile__detail {
+                        h2 {
+                            font-size: 1.05rem;
+                            font-weight: 700;
+                            padding-top: 0.2rem;
+                            color: $White;
+                        }
+
+                        p {
+                            font-size: 1.06rem;
+                            padding-top: 0.2rem;
+                            color: $Soft-Pink;
+                        }
+                    }
+                }
+
+                .profile__quote {
+                    margin-top: 1.73em;
+                    font-size: 1.045rem;
+                    color: $White;
+                    line-height: 1.3;
+                }
+            }
+
+            .profile__three {
+                background-color: $Very-Dark-Magenta;
+                border-radius: 0.7rem;
+                padding-block: 2.5rem;
+                padding-inline: 2rem;
+                max-height: 235px;
+                margin-top: 2rem;
+
+                .profile__detail__wrapper {
+                    display: flex;
+                    gap: 1.5rem;
+
+                    img {
+                        width: 2.5rem;
+                        border-radius: 50%;
+                    }
+
+                    .profile__detail {
+                        h2 {
+                            font-size: 1.05rem;
+                            font-weight: 700;
+                            padding-top: 0.2rem;
+                            color: $White;
+                        }
+
+                        p {
+                            font-size: 1.06rem;
+                            padding-top: 0.2rem;
+                            color: $Soft-Pink;
+                        }
+                    }
+                }
+
+                .profile__quote {
+                    margin-top: 1.73em;
+                    font-size: 1.045rem;
+                    color: $White;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+
     .attribution {
         font-size: 11px;
         text-align: center;

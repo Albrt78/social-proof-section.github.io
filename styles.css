@@ -1,3 +1,207 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+body main {
+  padding-top: 7.3rem;
+  padding-inline: 10.3rem;
+  font-family: "League Spartan", sans-serif;
+}
+body main .proof__info__wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+body main .proof__info__wrapper .proof__detail h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  max-width: 350px;
+}
+body main .proof__info__wrapper .proof__detail p {
+  margin-top: 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 450px;
+  color: hsl(303, 10%, 53%);
+}
+body main .proof__info__wrapper .proof__rating {
+  display: flex;
+  flex-direction: column;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__one {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding-block: 1.13rem;
+  padding-inline: 2rem;
+  margin-top: 1.85rem;
+  gap: 2rem;
+  max-width: 440px;
+  border-radius: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__one ul {
+  display: flex;
+  gap: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__one p {
+  font-weight: 500;
+  font-size: 1.095rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__two {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding-block: 1.17rem;
+  padding-inline: 2rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  gap: 2rem;
+  max-width: 440px;
+  border-radius: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__two ul {
+  display: flex;
+  gap: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__two p {
+  font-weight: 500;
+  font-size: 1.095rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__three {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding-block: 1.13rem;
+  padding-inline: 2rem;
+  margin-top: 1rem;
+  margin-left: 5.8rem;
+  gap: 2rem;
+  max-width: 440px;
+  border-radius: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__three ul {
+  display: flex;
+  gap: 0.5rem;
+}
+body main .proof__info__wrapper .proof__rating .box__rating__three p {
+  font-weight: 500;
+  font-size: 1.13rem;
+}
+body main .social__testimonials {
+  margin-top: 4.5rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  -moz-column-gap: 1.8rem;
+       column-gap: 1.8rem;
+}
+body main .social__testimonials .profile__one {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.7rem;
+  padding-block-start: 2.5rem;
+  padding-inline: 2rem;
+  max-height: 235px;
+}
+body main .social__testimonials .profile__one .profile__detail__wrapper {
+  display: flex;
+  gap: 1.5rem;
+}
+body main .social__testimonials .profile__one .profile__detail__wrapper img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+body main .social__testimonials .profile__one .profile__detail__wrapper .profile__detail h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding-top: 0.2rem;
+  color: hsl(0, 0%, 100%);
+}
+body main .social__testimonials .profile__one .profile__detail__wrapper .profile__detail p {
+  font-size: 1.06rem;
+  padding-top: 0.2rem;
+  color: hsl(333, 80%, 67%);
+}
+body main .social__testimonials .profile__one .profile__quote {
+  margin-top: 1.73em;
+  font-size: 1.045rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3;
+}
+body main .social__testimonials .profile__two {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.7rem;
+  padding-block: 2.5rem;
+  padding-inline: 2rem;
+  max-height: 235px;
+  margin-top: 1rem;
+}
+body main .social__testimonials .profile__two .profile__detail__wrapper {
+  display: flex;
+  gap: 1.5rem;
+}
+body main .social__testimonials .profile__two .profile__detail__wrapper img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+body main .social__testimonials .profile__two .profile__detail__wrapper .profile__detail h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding-top: 0.2rem;
+  color: hsl(0, 0%, 100%);
+}
+body main .social__testimonials .profile__two .profile__detail__wrapper .profile__detail p {
+  font-size: 1.06rem;
+  padding-top: 0.2rem;
+  color: hsl(333, 80%, 67%);
+}
+body main .social__testimonials .profile__two .profile__quote {
+  margin-top: 1.73em;
+  font-size: 1.045rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3;
+}
+body main .social__testimonials .profile__three {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.7rem;
+  padding-block: 2.5rem;
+  padding-inline: 2rem;
+  max-height: 235px;
+  margin-top: 2rem;
+}
+body main .social__testimonials .profile__three .profile__detail__wrapper {
+  display: flex;
+  gap: 1.5rem;
+}
+body main .social__testimonials .profile__three .profile__detail__wrapper img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+body main .social__testimonials .profile__three .profile__detail__wrapper .profile__detail h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding-top: 0.2rem;
+  color: hsl(0, 0%, 100%);
+}
+body main .social__testimonials .profile__three .profile__detail__wrapper .profile__detail p {
+  font-size: 1.06rem;
+  padding-top: 0.2rem;
+  color: hsl(333, 80%, 67%);
+}
+body main .social__testimonials .profile__three .profile__quote {
+  margin-top: 1.73em;
+  font-size: 1.045rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3;
+}
 body .attribution {
   font-size: 11px;
   text-align: center;
