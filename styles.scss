@@ -20,6 +20,12 @@ $White: hsl(0, 0%, 100%);
 
 body {
     background-color: $White;
+    background-image: url("images/bg-pattern-top-desktop.svg"),
+        url("images/bg-pattern-bottom-desktop.svg");
+    background-position: right 25vw bottom 18vw, top 3vw left 10vw;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    min-height: 100dvh;
 
     main {
         padding-top: 7.3rem;
@@ -431,5 +437,10 @@ body {
         a {
             color: hsl(228, 45%, 44%);
         }
+    }
+
+    @media (max-width: 768.98px) {
+        background-image: url("images/bg-pattern-top-mobile.svg"),
+            url("images/bg-pattern-bottom-mobile.svg");
     }
 }
